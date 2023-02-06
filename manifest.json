@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Highlight extension",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "js": ["script.js"],
+        "matches": ["<all_urls>"],
+        "run_at": "document_end"
+      }
+    ],
+    "web_accessible_resources": [
+        "index.html"
+    ],
+    "permissions": ["<all_urls>"]
+}
