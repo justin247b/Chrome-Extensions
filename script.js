@@ -1,3 +1,5 @@
+
+
 var selectedText = '';
 
 document.addEventListener("mousedown", function(event) {
